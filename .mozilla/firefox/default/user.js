@@ -17,6 +17,7 @@ user_pref("browser.sessionstore.max_tabs_undo", 50);
 user_pref("browser.sessionstore.max_windows_undo", 10);
 user_pref("browser.sessionstore.restore_on_demand", true);
 user_pref("browser.startup.homepage", "about:blank");
+user_pref("browser.startup.homepage_override.mstone", "ignore");
 user_pref("browser.startup.page", 0);
 user_pref("browser.tabs.closeButtons", 2);
 user_pref("browser.tabs.closeWindowWithLastTab", false);
@@ -42,10 +43,12 @@ user_pref("network.http.sendSecureXSiteReferrer", false);
 user_pref("network.prefetch-next", false);
 user_pref("pdfjs.disabled", true);
 user_pref("plugins.click_to_play", true);
+user_pref("privacy.clearOnShutdown.cookies", true);
 user_pref("privacy.clearOnShutdown.history", false);
 user_pref("privacy.clearOnShutdown.offlineApps", true);
 user_pref("privacy.clearOnShutdown.passwords", true);
 user_pref("privacy.clearOnShutdown.siteSettings", true);
+user_pref("privacy.sanitize.migrateFx3Prefs", true);
 user_pref("privacy.sanitize.sanitizeOnShutdown", true);
 user_pref("signon.autofillForms", false);
 user_pref("signon.rememberSignons", false);
@@ -56,6 +59,9 @@ user_pref("toolkit.telemetry.unified", false);
 user_pref("view_source.wrap_long_lines", true);
 user_pref("webgl.disabled", true);
 user_pref("xpinstall.signatures.required", false);
+
+// pentadactyl extension
+user_pref("extensions.dactyl.first-run", false);
 
 // noscript extension
 user_pref("noscript.autoReload.allTabs", false);
